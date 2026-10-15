@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Mario Flores</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Íconos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Fuente Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Mis estilos -->
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== Menú ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark menu sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Mario<span class="texto-acento">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="diario.html">Diario</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== Encabezado ===== -->
+    <header class="cabecera">
+        <i class="bi bi-folder2-open"></i>
+        <h1>Proyectos</h1>
+        <p class="mb-0">Trabajos realizados en el colegio</p>
+    </header>
+
+    <main class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <article class="tarjeta">
+                    <img src="img/proyecto-portafolio.webp" alt="Imagen del proyecto Portafolio Web">
+                    <div class="p-4">
+                        <span class="materia">Software</span>
+                        <h3 class="h5 mt-2">Portafolio Web</h3>
+                        <p class="mb-0">Mi sitio personal diseñado para presentar mis datos, competencias e intereses académicos con HTML, CSS, Bootstrap y diseño adaptable.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="tarjeta">
+                    <img src="img/proyecto-pagina-basica.webp" alt="Imagen del proyecto Página Web Básica">
+                    <div class="p-4">
+                        <span class="materia">Laboratorio</span>
+                        <h3 class="h5 mt-2">Página Web Básica</h3>
+                        <p class="mb-0">Un sitio web sencillo enfocado en la estructuración de contenidos, navegación interna y organización semántica con etiquetas HTML.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="tarjeta">
+                    <img src="img/proyecto-modelo-3d.webp" alt="Imagen del proyecto Modelo 3D">
+                    <div class="p-4">
+                        <span class="materia">Diseño</span>
+                        <h3 class="h5 mt-2">Modelo 3D</h3>
+                        <p class="mb-0">Creación de figuras y elementos tridimensionales desarrollados en Blockbench con un estilo de bloques inspirado en Minecraft.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== Pie de página ===== -->
+    <footer class="pie text-center">
+        <p class="fw-bold mb-1">Mario Flores · 1.° BTI</p>
+        <p class="mb-2">&copy; 2026 · Portafolio Digital</p>
+        <div class="redes mb-3">
+            <a href="https://github.com/floresmarioja26-lab" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="mailto:marioflores@gmail.com" aria-label="Correo"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+        <p class="creditos">
+            Créditos de imágenes: ilustraciones de proyectos y avatar creadas por Mario Flores para este portafolio.
+            Íconos: <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a> (licencia MIT).
+            Diseño con <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a>.
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS (para el menú en celular) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
